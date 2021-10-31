@@ -1,0 +1,49 @@
+
+/* Background colour and padding for the whole page */
+
+body {
+    padding: 30px 100px;
+    background-color: #A47963;
+}
+
+/* Styling for Jumbotron position, background image and fonts */
+
+#jumbotron {
+    margin: -40px;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#jumbotron > h1 {
+    padding-top: 25%;
+    font-size: 7em ;
+}
+
+#jumbotron > p {
+    font-size: xx-large;
+}
+
+/* Fixed image thumbail size */
+
+.img-thumbnail {
+    width: 300px;
+    height: 200px;
+}
+
+/* Styling for progress bars */
+
+.progress-bar {
+    background-color: #29334E;
+}
+
+/* Styling for containers */
+
+.container {
+   border-radius: 10px;
+}
